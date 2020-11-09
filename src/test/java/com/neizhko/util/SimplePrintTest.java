@@ -16,26 +16,26 @@ public class SimplePrintTest {
 
     @BeforeClass
     public static void initializeTestMessage() {
-        System.out.println("Unit tests for SimplePrint library");
+        System.out.println("Unit tests for SimplePrint library.");
         System.out.println("Java version: " + System.getProperty("java.version"));
     }
 
     @Test
     public void testPrint() {
-        System.out.println("\nTest of method Print");
+        System.out.println("\nTest of method Print:");
         System.out.println("Result:");
         print(string);
     }
 
     @Test
     public void testPrintln() {
-        System.out.println("\nTest of method Println");
+        System.out.println("\nTest of method Println:");
         System.out.println("Result:");
         println(string);
     }
 
     @After
     public void afterTest() {
-        System.out.println("\nTest finished");
+        System.out.println("\nTest finished.");
     }
 }///:~
